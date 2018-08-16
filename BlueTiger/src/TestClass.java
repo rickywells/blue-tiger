@@ -1,5 +1,6 @@
 
-public class TestClass {
+public class TestClass 
+{
 
 	public TestClass()
 	{
