@@ -1,0 +1,87 @@
+Ability Stats:
+Instead of making base stats a linear scale of bad to good, instead we make them a 
+balance of opposed ideals.
+
+Social Stat (Personality) -> balance of introspection and extraversion.
+Physical Stat (Build) -> balance of dexterity to strength
+Mentality Stat (Mentality) -> balance of book smart to street smart
+
+For the social aspect, not every person in real life responds the same way to 
+boisterous, outgoing personalities. A reserved person is likely going to react 
+more strongly to an outgoing person, and vice versa. A character who adopts an 
+overwhelmingly outgoing personality will not always be able to talk their way 
+into or out of situations. NPCs that fall on the instrospective side of the 
+scale will be more resistant to smooth talking. The reverse is that characters 
+who are reserved will be less likely to move the force of personality of an 
+outgoing NPC, but may find it easier to talk with other reserved NPCs.
+
+Our physical stat balances between having high dexterity and having incredible strength.
+A player who wishes to be competent in both will sacrifice excelling in either. 
+Certain armor, items, weapons, etc will have requisites for their use based on a 
+character's dexterity or strength. The stats of these items may also vary 
+depending on this ability score.
+
+Our mentality stat aims to balance between the classic interpretation of 
+Intelligence versus Wisdom. A character in the middle of the scale will 
+be reasonably book smart and have some real world wisdom. Characters that 
+wish to have high intelligence sacrifice some of that real world street smart, 
+and vice versa.
+
+The idea behind having the stats designed this way is to push the idea that 
+characters do not have to excel in every stat to be fun, viable, interesting, 
+or powerful. The characters should never feel that they are inferior to a 
+"regular" NPC. Imagine if a character had a physical stat that leaned all 
+the way to the dexterity end. This does not imply that they are weak. Instead, 
+it would mean that they had a typically average strength, comparable to any 
+straightforward passerby in the street would possess. If that physical stat 
+sat dead center on the scale, that character would have superior strength 
+and dexterity to any average person. They simply would not reach the full 
+potential of a hero-type character for either.
+
+Mechanically, each player has 5 points to spend in Build, Mentality, and Personality. 
+Build is divided into Strength and Dexterity, 
+Mentality is divided into Wisdom and Academics, 
+and Personality is divided into Reflection and Extraversion.
+Each of the six ability areas has a minimum score of 1 and a maximum score of 10. 
+
+The base for the following skills match their parent. Each class may get 
+additional points to skills.
+
+Athletics 	- Strength  	(Climbing, Swimming, Jumping)
+Maneuver  	- Dexterity 	(Riding, Control/Handle Object)
+Recall 		- Academics    	(history, arcane, knowledge) 
+Survival 	- Wisdom		(Nature, Tracking, Animal Handling) 
+Perform 	- Extraversion	(Distract)
+Infer 		- Reflection	(Perception, Psychology) 
+
+The base for the following blended skills are the combined total of their parents. 
+
+Surreptition 	- Dexterity & Wisdom		(stealth, hiding, sleight of hand, lock picking) 
+Spell Efficacy 	- Dexterity & Academics
+Linguistics	 	- Extraversion & Academics	(Language, Persuasion, Diplomacy, Bluff)
+Intimidation 	- Strength & Extraversion
+Insight 		- Reflection & Wisdom
+Evaluate 	 	- Academics & Reflection	(Investigate, Appraise, Value) 
+
+Specializations or Heritages may get additional points to these skills.
+Every 5th level, the character may increase 1 of the base 6 stats by 1.
+A character's maximum level is 30.
+
+Health and Attack Damage are driven by Strength
+Accuracy is driven by Dexterity
+Luck is driven by Wisdom
+
+
+Movement = DEX * 5 + 10 (in feet)
+Health = STR * 3 + lvl
+Mage Points = lvl * 2
+Luck = Wisdom
+
+Luck is a resource that the player can spend to attempt to reroll an attack or skill
+or force an opponent to reroll damage.
+
+Health regenerates at 1 point per hour, if no major wound.
+Mage Points regenerate at 1 point per hour, if no major wound.
+Luck regenerates at 1 point per day.
+
+

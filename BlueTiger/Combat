@@ -1,0 +1,18 @@
+Combat-
+Move Round: Based on movement speed. Slowest moves first (tied speed, lowest Dex)
+and declares intended action. Move to next slowest, etc. If choose not to move, 
+can declare two actions. These actions resolve together at their combined total speed.
+(Does not apply to forced immobilization)
+
+Action Round: Declared actions resolve in order of action speed, fastest to slowest.
+Each type of action has a different speed. Certain weapons are faster than others,
+certain spells are quicker to cast, and different maneuvers take different times.\
+
+--Maneuvers: 
+-Dodge (1/2 damage + move), 
+-Parry (0 damage), 
+-Grapple (restrain opponent), 
+-Topple (knock prone), 
+-Aim (next attack extra damage, more accurant), 
+-Jump/Leap, 
+-Interact
