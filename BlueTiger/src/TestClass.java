@@ -11,18 +11,20 @@ public class TestClass
 	{
 		Weapon sword = 
 				new Weapon("Longsword", 6, 3, 100, false, false, 0, false, 
-						true, false, false, false);
+						true, false, false, false, 5.0, 4.0);
 		Weapon spear = 
 				new Weapon("Spear", 4, 3, 100, false, false, 0, true, 
-						false, false, true, false);
+						false, false, true, false, 5.0, 4.0);
 		Weapon dagger = 
-				new Weapon("Dagger", 4, 2, 100, true, false, 0, false, 
-						false, false, false, true);
+				new Weapon("Dagger", false);
 		
 		List<Weapon> armory = new ArrayList<Weapon>();
 		armory.add(spear);
 		armory.add(sword);
 		armory.add(dagger);
+		armory.add(new Weapon("Shortsword", true));
+		
+		
 		
 		for (int i = 0; i < armory.size(); i++)
 		{
@@ -38,5 +40,6 @@ public class TestClass
 			if(armory.get(i).isTwoHanded()) {System.out.println("Requires two hands");}
 			System.out.println("----------------------------------------");
 		}
+
 	}
 }

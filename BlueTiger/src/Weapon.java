@@ -1,5 +1,6 @@
+import java.util.*;
 
-public class Weapon {
+public class Weapon extends GameItem {
 
 	private String name;
 	private int damage;
@@ -13,6 +14,8 @@ public class Weapon {
 	private boolean stunning;
 	private boolean thrusting;
 	private boolean dualWield;
+	private double weight;
+	private double value;
 	
 	/**
 	 * Constructor to build a weapon.
@@ -32,7 +35,7 @@ public class Weapon {
 	public Weapon(String name, int damage, int speed, int durability, 
 			boolean stealthy, boolean ranged, int range, boolean twoHanded,
 			boolean majorWounding, boolean stunning, boolean thrusting, 
-			boolean dualWield) {
+			boolean dualWield, double weight, double value) {
 		
 		this.name = name;
 		this.damage = damage;
@@ -46,13 +49,70 @@ public class Weapon {
 		this.stunning = stunning;
 		this.thrusting = thrusting;
 		this.dualWield = dualWield;
+		this.weight = weight;
+		this.value = value;
+	}
+	
+	public Weapon(String name, boolean isBrandNew)
+	{
+		this.name = name;
+		setFromJSON(name);
+		if(!isBrandNew)
+		{
+			randomDurability();
+		}
+	}
+	
+	private void setFromJSON(String n)
+	{
+		Scanner read = new Scanner(Weapon.class.getResourceAsStream("weapons"));
+		String temp = "";
+		
+		while(read.hasNext())
+		{
+			temp += read.next();
+		}
+		read.close();
+		JSONObject json = new JSONObject(temp);
+		JSONArray array = json.getJSONArray("weapons");
+		for(int i = 0 ; i < array.length(); i++)
+		{
+			if(array.getJSONObject(i).get("name").equals(n))
+			{
+				if(array.getJSONObject(i).has("damage")){this.setDamage((Integer) array.getJSONObject(i).get("damage"));}
+				if(array.getJSONObject(i).has("speed")){this.setSpeed((Integer) array.getJSONObject(i).get("speed"));}
+				if(array.getJSONObject(i).has("durability")){this.setDurability((Integer) array.getJSONObject(i).get("durability"));}
+				if(array.getJSONObject(i).has("stealthy")){this.setStealthy((Boolean) array.getJSONObject(i).get("stealthy"));}
+				if(array.getJSONObject(i).has("ranged")){this.setRanged((Boolean) array.getJSONObject(i).get("ranged"));}
+				if(array.getJSONObject(i).has("range")){this.setRange((Integer) array.getJSONObject(i).get("range"));}
+				if(array.getJSONObject(i).has("twoHanded")){this.setTwoHanded((Boolean) array.getJSONObject(i).get("twoHanded"));}
+				if(array.getJSONObject(i).has("majorWounding")){this.setMajorWounding((Boolean) array.getJSONObject(i).get("majorWounding"));}
+				if(array.getJSONObject(i).has("stunning")){this.setStunning((Boolean) array.getJSONObject(i).get("stunning"));}
+				if(array.getJSONObject(i).has("thrusting")){this.setThrusting((Boolean) array.getJSONObject(i).get("thrusting"));}
+				if(array.getJSONObject(i).has("dualWield")){this.setDualWield((Boolean) array.getJSONObject(i).get("dualWield"));}
+			}
+		}
 	}
 
+	private void randomDurability()
+	{
+		Random r = new Random();
+		setDurability(r.nextInt(50) + 30);
+	}
+	
 	/**
 	 * @return the name
 	 */
 	public String getName() {
 		return name;
+	}
+
+	public double getWeight() {
+		return weight;
+	}
+
+	public double getValue() {
+		return value;
 	}
 
 	/**
@@ -137,6 +197,14 @@ public class Weapon {
 	 */
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+
+	public void setValue(double value) {
+		this.value = value;
 	}
 
 	/**
