@@ -65,7 +65,7 @@ public class Weapon extends GameItem {
 	
 	private void setFromJSON(String n)
 	{
-		Scanner read = new Scanner(Weapon.class.getResourceAsStream("weapons"));
+		Scanner read = new Scanner(Weapon.class.getResourceAsStream("weapons.json"));
 		String temp = "";
 		
 		while(read.hasNext())
