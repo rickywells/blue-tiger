@@ -78,8 +78,8 @@ Health = STR * 3 + lvl
 Mage Points = lvl * 2
 Luck = Wisdom
 
-Luck is a resource that the player can spend to attempt to reroll an attack or skill
-or force an opponent to reroll damage.
+Luck is a resource that the player can spend to attempt to reroll an attack, maneuver or skill
+or force an opponent to reroll an attack or maneuver. You cannot use a Luck point to reroll another Luck.
 
 Health regenerates at 1 point per hour, if no major wound.
 Mage Points regenerate at 1 point per hour, if no major wound.

@@ -1,5 +1,7 @@
-{"weapons" : 
+{"armor" : 
 	[
-		{"name":"Shield"}
+		{"name":"Buckler", "defValue":1, "durability":"100},
+		{"name":"Shield","defValue":2, "durability":100}
+		
 	]
 }
