@@ -9,10 +9,20 @@ Each type of action has a different speed. Certain weapons are faster than other
 certain spells are quicker to cast, and different maneuvers take different times.\
 
 --Maneuvers: 
--Dodge (1/2 damage + move), 
--Parry (0 damage), 
--Grapple (restrain opponent), 
--Topple (knock prone), 
--Aim (next attack extra damage, more accurant), 
--Jump/Leap, 
--Interact
+-Dodge (1/2 damage + move 1/2 speed) [1 speed]
+	Attacker and Defender roll 1d10+DEX. If attacker wins, deals full damage and defender doesn't move.
+-Parry (0 damage) [0 speed]
+	Attacker and Defender dex challenge 1d10+dex. Attacker wins=full damage and no reduction for def str. 
+-Grapple (restrain opponent), [2 speed] 
+	Str challenge. If grappler wins, defender loses next action, must use turn to break with STR check. If defender wins, continues as normal
+-Topple (knock prone), [2 speed]
+	STR challenge. Grappler wins, defender falls prone, takes move to stand.
+-Aim (next attack extra damage, more accurate), [1 speed]
+	If attack on next action, add +3 to hit and deal +3 damage.
+-Jump/Leap, [1 speed]
+-Interact [DM determines; 1 easy use - 5 very hard/slow to use]
+
+
+
+To Hit: DEX + 1d10 > Armor Value
+Damage: Weapon Die + Attacker STR - 1/2 Defender STR

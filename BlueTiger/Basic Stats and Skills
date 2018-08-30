@@ -45,7 +45,7 @@ and Personality is divided into Reflection and Extraversion.
 Each of the six ability areas has a minimum score of 1 and a maximum score of 10. 
 
 The base for the following skills match their parent. Each class may get 
-additional points to skills.
+additional points to skills. (d20; 10-easy; 15-medium; 20-hard)
 
 Athletics 	- Strength  	(Climbing, Swimming, Jumping)
 Maneuver  	- Dexterity 	(Riding, Control/Handle Object)
@@ -55,6 +55,7 @@ Perform 	- Extraversion	(Distract)
 Infer 		- Reflection	(Perception, Psychology) 
 
 The base for the following blended skills are the combined total of their parents. 
+(d20; 15-easy; 20-medium; 25-hard)
 
 Surreptition 	- Dexterity & Wisdom		(stealth, hiding, sleight of hand, lock picking) 
 Spell Efficacy 	- Dexterity & Academics
@@ -67,7 +68,7 @@ Specializations or Heritages may get additional points to these skills.
 Every 5th level, the character may increase 1 of the base 6 stats by 1.
 A character's maximum level is 30.
 
-Health and Attack Damage are driven by Strength
+Health and Attack Damage and Reduction are driven by Strength
 Accuracy is driven by Dexterity
 Luck is driven by Wisdom
 
