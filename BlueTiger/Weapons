@@ -3,10 +3,54 @@ Stat ideas: speed, damage, durability
 Specialties: stealthy, ranged, two-handed, major wounding, 
 stunning, thrusting, dual wielded
 
+-Swords
+  Dagger
+  Short Sword
+  Rapier
+  Cutlass
+  Longsword
+  Greatsword
+-Axes
+  Hatchet
+  Hand Axe
+  Scythe
+  War Axe
+  Great Axe
+-Bludgeoning
+  Small Hammer
+  Mace
+  Cudgel
+  Maul
+  Longhammer
+  Quarterstaff
+-Polearms
+  Spear
+  Lance
+  Glaive
+  Halberd
+-Bows
+  Hand Crossbow
+  Short Bow
+  Light Crossbow
+  Long Bow
+  Heavy Crossbow
+  Recurve Bow
+-Flails
+  Spiked Ball & Chain
+  Nun-Chuka
+
 
 
 Armor
 Static defensive values, 6-12
-Leathers -> 6
+Light Leather -> 6
+Heavy Leather -> 7
+Light Chain -> 8
+Scale -> 9
+Half-Plate -> 10
+Heavy Chain -> 11
 Steel Plate -> 12
 
+OPTIONAL: Durability points. Armor has a durability rating equal to its defensive value times 5. When a wearer of the armor takes a total
+amount of damage equal to that rating, the defensive value decreases by 1, and any extra points of durability damage roll over to the new value.
+Armor can be repaired back to full effectiveness.
