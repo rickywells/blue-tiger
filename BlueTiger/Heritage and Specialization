@@ -1,20 +1,24 @@
 Specializations--
--Arcanist
--Cleric
--Summoner
--Necromancer
--Diviner
--Soldier
--Berserker
--Warrior
--Paladin
--Ranger
--Druid
--Hunter
--Monk
--Rake
--Assassin
--Bard
+Magic Focus
+-Arcanist (evocation)
+-Cleric (abjuration)
+-Summoner (conjuration)
+-Necromancer (vigoration)
+-Diviner (divination)
+-Paladin (enchantment)
+-Druid (conjuration)
+-Bard (illusion)
+
+Martial Focus
+-Soldier (abjuration)
+-Berserker (evocation)
+-Warrior (vigoration)
+-Ranger (conjuration)
+-Hunter (transmutation)
+-Monk (divination)
+-Rake (enchantment)
+-Assassin (illusion)
+
 
 These specializations may give bonuses to skills. Different specializations give
 access to different spells and abilities.
