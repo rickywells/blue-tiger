@@ -76,13 +76,19 @@ Luck is driven by Wisdom
 Movement = DEX * 5 + 10 (in feet)
 Health = STR * 3 + lvl
 Mage Points = lvl * 2
-Luck = Wisdom
+Luck = 1/2 * Wisdom rounded down (min. 1)
 
 Luck is a resource that the player can spend to attempt to reroll an attack, maneuver or skill
 or force an opponent to reroll an attack or maneuver. You cannot use a Luck point to reroll another Luck.
 
 Health regenerates at 1 point per hour, if no major wound.
-Mage Points regenerate at 1 point per hour, if no major wound.
+Mage Points regenerate at 1 point per 2 hours, if no major wound.
 Luck regenerates at 1 point per day.
 
+Major Wound: 1 major wound = no health regeneration, no mage point regeneration
+ 2 major wound = movement reduced by 10 feet, -2 penalty to STR and DEX
+ 3 major wound = -2 penalty to ACA & WIS
+ 4 major wound = unconscious
+ 5 major wound = death
+ You can remove 1 major wound naturally by taking a night's rest.
 
