@@ -1,32 +1,47 @@
 Specializations--
 Magic Focused
 -Arcanist (evocation)(transmutation)(vigoration)
-
+	Fan the Flames
 -Cleric (abjuration)(vigoration)(divination)
-
+	A Shield From Evils
 -Summoner (conjuration)(illusion)(transmutation)
-
+	Helping Hands
 -Necromancer (vigoration)(conjuration)(enchantment)
-
+	Curse on Your Lips
 -Diviner (divination)(abjuration)(illusion)
-
+	The Way is Clear
 -Paladin (enchantment)(evocation)(abjuration)
-
+	Strong Arm of Justice
 -Druid (transmutation)(divination)(conjuration)
-
+	The Earth Provides
 -Bard (illusion)(enchantment)(evocation)
-
+	Catch Me if You Can
 
 Martial Focused
 -Soldier (abjuration)
+	Know Your Enemy
+	Eye for Battle
 -Berserker (evocation)
+	Bloodfrenzy
+	Fury
 -Warrior (vigoration)
+	Martial Prowess
+	Warrior's Fate
 -Ranger (conjuration)
+	Slip the Cracks
+	Winds of Change
 -Hunter (transmutation)
+	Deadeye
+	Eye of the Hunter
 -Monk (divination)
+	Stillness of Mind
+	Unity of Spirit and Body
 -Rake (enchantment)
+	Opportunistic
+	Exit Plan
 -Assassin (illusion)
-
+	Twist of the Blade
+	Walk With Shadows
 
 These specializations may give bonuses to skills. Different specializations give
 access to different spells and abilities.
