@@ -1,15 +1,23 @@
 Specializations--
-Magic Focus
--Arcanist (evocation)
--Cleric (abjuration)
--Summoner (conjuration)
--Necromancer (vigoration)
--Diviner (divination)
--Paladin (enchantment)
--Druid (conjuration)
--Bard (illusion)
+Magic Focused
+-Arcanist (evocation)(transmutation)(vigoration)
 
-Martial Focus
+-Cleric (abjuration)(vigoration)(divination)
+
+-Summoner (conjuration)(illusion)(transmutation)
+
+-Necromancer (vigoration)(conjuration)(enchantment)
+
+-Diviner (divination)(abjuration)(illusion)
+
+-Paladin (enchantment)(evocation)(abjuration)
+
+-Druid (transmutation)(divination)(conjuration)
+
+-Bard (illusion)(enchantment)(evocation)
+
+
+Martial Focused
 -Soldier (abjuration)
 -Berserker (evocation)
 -Warrior (vigoration)
@@ -30,10 +38,10 @@ only hold 3 specializations.
 
 Heritage--
 Human 	- 1 extra point to spend in each three categories
-Elf		- mage points regenerate quicker
-Dwarf 	- extra strength based damage and luck
-Felis	- extra movement and dark vision
-Serpis 	- dex and accuracy bonus, immune poison 
-Ursis 	- extra health, resist charm based 
+Elf	- mage points regenerate quicker (1 per hour)
+Dwarf 	- extra strength based damage and luck (STR based damage is doubled) (bonus +2 to max luck)
+Felis	- extra movement and dark vision (+10 to movement, see in dark to 50')
+Serpis 	- dex and accuracy bonus, immune poison (+2 bonus to DEX, +2 bonus against grapples, immune to poison)
+Ursis 	- extra health and strength (+1 bonus to Max HP per level, +1 bonus to STR and WIS) 
 
 
