@@ -19,3 +19,33 @@ Transmutation	--Changing energy and matter
 Abilities--
 Certain other abilities exist. Some of these may be magic-like in nature. Others 
 may be social based, and others display physical powers.
+
+
+Spellbook-
+
+Healing Touch:
+-REQ: Vigoration affinity
+-Speed: 4
+-(1-5 MP): Heal a creature you can touch a number of HP equal to your spell efficacy for each MP point spent.
+
+Advanced Healing Touch:
+-REQ: Vigoration affinity > 10
+-Speed: 5
+-(1-8 MP): Heal a creature you can touch a number of HP equal to your spell efficacy for each MP point spent, plus your Vigoration affinity.
+
+Superior Healing Touch:
+-REQ: Vitalist Specialization > 20
+-Speed: 5
+-(2+ MP): Heal a creature you can touch a number of HP equal to your spell efficacy plus your Vigoration affinity for each 2 MP point spent.
+-(4 MP): Remove a Major Wound from a creature you can touch.
+
+Voice of Soothing:
+-REQ: Vigoration affinity + Bard Specialization
+-Speed: 4
+-(3 MP): Heal a creature that can hear you within 50' equal to your spell efficacy.
+
+Song of Soothing:
+-REQ: Vigoration affinity > 10 + Bard Specialization
+-Speed: 2
+-(3 MP): Heal a creature that can hear you within 50' equal to your vigoration. 
+        [+1 MP] For every additional MP you spend, you may heal another creature that can hear you within 50' by the same amount.
