@@ -1,13 +1,13 @@
 Specializations--
-Magic Focused
+Magic Focused (1x)(1/2x)(1/3x)
 -Arcanist (evocation)(transmutation)(vigoration)
 	Fan the Flames
 -Cleric (abjuration)(vigoration)(divination)
 	A Shield From Evils
 -Summoner (conjuration)(illusion)(transmutation)
 	Helping Hands
--Necromancer (vigoration)(conjuration)(enchantment)
-	Curse on Your Lips
+-Vitalist (vigoration)(conjuration)(enchantment)
+	Balance of Life
 -Diviner (divination)(abjuration)(illusion)
 	The Way is Clear
 -Paladin (enchantment)(evocation)(abjuration)
@@ -46,8 +46,8 @@ Martial Focused
 These specializations may give bonuses to skills. Different specializations give
 access to different spells and abilities.
 
-You pick a specialization at 2nd level. Each subsequent level, you choose to either
-increase your specialization level, or choose an additional specialization. You may
+You pick a specialization at 1st level. Each subsequent level, you choose to either
+increase one of your specialization levels, or choose an additional specialization. You may
 only hold 3 specializations.
 	
 
