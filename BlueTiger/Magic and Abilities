@@ -5,6 +5,8 @@ points, number of targets, etc.
 Spells may have requirements based on skill or specialization or level. It may also 
 have restrictions on number of mage points spent, or frequency of use.
 
+You learn 1 spell at level 1. You learn an additional spell at every even numbered level.
+
 Abjuration (Renegation)	--Blocking, banishing, protecting
 Conjuration	--Produce creatures or objects from another plane
 Divination	--Understanding the past, present and future
