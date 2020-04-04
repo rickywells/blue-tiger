@@ -92,3 +92,12 @@ Major Wound: 1 major wound = no health regeneration, no mage point regeneration
  5 major wound = death
  You can remove 1 major wound naturally by taking a night's rest.
 
+
+Statuses:
+-blind
+-deaf
+-unlucky
+-poisoned
+-paralyzed
+-stunned
+-slowed

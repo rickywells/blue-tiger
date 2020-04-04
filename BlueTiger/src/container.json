@@ -1,6 +1,6 @@
-{"container" : 
+{"containers" : 
 	[
-		{"name":"jar"},
+		{"name":"jar","capacity":1},
 		{"name":"small wagon"},
 		{"name":"trunk"}
 	]

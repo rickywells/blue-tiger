@@ -15,7 +15,6 @@ Vigoration	--Curses, life force (positive & negative)
 Transmutation	--Changing energy and matter
 
 
-
 Abilities--
 Certain other abilities exist. Some of these may be magic-like in nature. Others 
 may be social based, and others display physical powers.
@@ -40,12 +39,74 @@ Superior Healing Touch:
 -(4 MP): Remove a Major Wound from a creature you can touch.
 
 Voice of Soothing:
--REQ: Vigoration affinity + Bard Specialization
+-REQ: Vigoration affinity; Bard or Rake Specialization
 -Speed: 4
 -(3 MP): Heal a creature that can hear you within 50' equal to your spell efficacy.
 
 Song of Soothing:
--REQ: Vigoration affinity > 10 + Bard Specialization
+-REQ: Vigoration affinity > 10; Bard or Rake Specialization
 -Speed: 2
 -(3 MP): Heal a creature that can hear you within 50' equal to your vigoration. 
         [+1 MP] For every additional MP you spend, you may heal another creature that can hear you within 50' by the same amount.
+
+Vigor Sap:
+-REQ: Vigoration affinity
+-Speed: 3
+-(1-5 MP): A creature you touch loses HP equal to your spell efficacy minus the target's STR (minimum of 1). Do this
+		once for each MP spent.
+
+Vampiric Sap:
+-REQ: Vigoration affinity > 10; Druid or Hunter Specialization
+-Speed: 3
+-(2 MP): A creature you touch loses HP equal to your spell efficacy.
+	[+2 MP] You heal yourself equal to half the amount of HP the target creature loses.
+	
+Restorative Touch:
+-REQ: Vigoration affinity
+-Speed: 3
+-(2 MP): Remove a poison, blinded, or deafened condition from a creature you can touch.
+
+Advanced Restorative Touch:
+-REQ: Vitalist Specialization > 10
+-Speed: 3
+-(2 MP): Remove a paralyze or stunned condition from a creature you can touch.
+
+Raise Undead:
+-REQ: Vitalist Specialization > 10
+-Speed: 2
+-(10 MP): Touch the remains of any humanoid creature that has been dead no longer than 7 days. The body is given vigor, and can 
+	perform simple tasks, but it cannot participate in combat. The body has HP equal to your spell efficacy. The body has STR and DEX equal to 1/3 of your Vigoration affinity, rounded down
+	It has Wisdom, Academics, Introversion, and Extroversion of 0. 
+	The body lasts for a number of hours equal to your spell efficacy or until its HP are reduced to 0,
+	 at which point it disintegrates into dust. It cannot be healed by magical means, nor does it heal HP naturally.
+
+Superior Raise Undead:
+-REQ: Vitalist Specialization > 20
+-Speed: 2
+-(12 MP): Touch the remains of any humanoid creature that has been dead no longer than 1 month. The body is given vigor, and can 
+	perform simple tasks, and can fight in combat. The body has HP equal to your spell efficacy + 1/2 your vigoration affinity.
+	The body has STR and DEX equal to 1/3 of your Vigoration affinity. It has Wisdom, Academics, Introversion, and Extroversion of 0.
+	The body lasts until its HP are reduced to 0, at which point it disintegrates into dust. It cannot be healed through magical means,
+	nor does it heal HP naturally.
+	[+4 MP): The body starts with additional HP equal to 1/2 your vigoration affinity.
+	
+Curse
+-REQ: Vigoration affinity
+-Speed: 3
+-(3 MP): Target creature you can touch suffers from one of the following; blindness, deafness, slowed, or unlucky. Target suffers from this condition
+		for a number of turns equal to 1/4 of your spell efficacy, rounded down (minimum 1).
+
+Clone
+-REQ: Vigoration affinity > 20; Summoner or Ranger specialization
+-Speed: 1
+-(8 MP): Create a clone of yourself. Its 6 base abilities are 1/2 of your own, rounded down. Its HP are 1/2 of your own.
+	It does not have any luck points, and cannot gain luck points. It cannot heal naturally, but it can benefit from magical healing.
+	You may only have one clone at a time. Your clone is incapable of using magic, or speech. It can only understand you, and you can issue
+	commands to it.
+	
+Resurrection
+-REQ: Vitalist Specialization > 25
+-Speed: 0
+-(15 MP): One creature you touch that died within the last year is restored to the physical condition it was in prior to 
+	death, including restoring missing limbs, etc. The creature comes to consciousness with 5 HP. The creature has a 0 Wisdom and Academics for the first 24 hours
+	after resurrection. 

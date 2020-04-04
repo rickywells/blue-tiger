@@ -1,4 +1,4 @@
 
-public class Creature {
+public class Creature extends Entity{
 
 }
