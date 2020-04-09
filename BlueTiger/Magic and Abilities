@@ -110,5 +110,126 @@ Resurrection
 -REQ: Vitalist Specialization > 25
 -Speed: 0
 -(15 MP): One creature you touch that died within the last year is restored to the physical condition it was in prior to 
-	death, including restoring missing limbs, etc. The creature comes to consciousness with 5 HP. The creature has a 0 Wisdom and Academics for the first 24 hours
-	after resurrection. 
+	death, including restoring missing limbs, etc. The creature comes to consciousness with HP equal to your
+	spell efficacy. The creature has a 0 Wisdom and Academics for the first 24 hours after resurrection. 
+
+
+ABJURATION
+Resistance
+
+Advanced Resistance
+
+Superior Resistance
+
+Alarm
+
+Warding Shell
+
+Advanced Warding Shell
+
+Mystic Lock
+
+Counter
+
+Dispel
+
+Veil
+
+Advanced Veil
+
+Anti-Magic Ward
+
+Binding
+
+Advanced Binding
+
+CONJURATION
+Spectral Force
+
+Advanced Spectral Force
+
+Summon Lesser Beast
+
+Summon Greater Beast
+
+Summon Planar Creature
+ 
+Summon Greature Planar Creature
+
+Create Weather
+
+Advanced Create Weather
+
+Create Inorganic Matter
+
+Create Organic Matter
+
+Planar Storage
+
+Teleport
+
+Advanced Teleport
+
+Planar Gate
+
+
+DIVINATION
+Guided Strike
+
+Understand Tongues
+
+Speak in Tongues
+
+Detect Aura
+
+Locate
+
+Advanced Locate
+
+Superior Locate
+
+Foretelling
+
+Advanced Foretelling
+
+Mind Delve
+
+Farsight
+
+Advanced Farsight
+
+Farspeak
+
+Guide the Way
+
+
+ENCHANTMENT
+Charm Lesser Beast
+
+Charm Greater Beast
+
+Charm Person
+
+Psychic Assault
+
+Advanced Psychic Assault
+
+Ensleep
+
+Command
+
+Advanced Command
+
+Confuse
+
+Memory Twist
+
+Enfeeble
+
+Imbue
+
+Advanced Imbue
+
+Superior Imbue
+
+EVOCATION
